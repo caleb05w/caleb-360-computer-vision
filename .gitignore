@@ -1,0 +1,13 @@
+# Too large for git
+datasets/
+runs/
+*.pt
+
+# Secrets
+.env
+
+# Python and notebooks
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
