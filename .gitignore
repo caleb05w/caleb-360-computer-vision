@@ -1,7 +1,12 @@
-# Too large for git
-datasets/
-runs/
+# Too large or redundant for git: raw downloads are rebuilt by the notebook,
+# the zip duplicates datasets/merged, and YOLO rebuilds its .cache files.
+datasets/raw/
+datasets/*.zip
+*.cache
+
+# Model weights: keep each run's best.pt, skip last.pt and the base yolov8 downloads.
 *.pt
+!runs/**/weights/best.pt
 
 # Secrets
 .env

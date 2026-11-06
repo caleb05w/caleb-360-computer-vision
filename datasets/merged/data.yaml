@@ -1,0 +1,11 @@
+train: train/images
+val: valid/images
+names:
+  0: coal ore
+  1: diamond ore
+  2: gold ore
+  3: lapis ore
+  4: redstone ore
+  5: iron ore
+  6: emerald ore
+test: test/images
